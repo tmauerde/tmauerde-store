@@ -1,7 +1,2 @@
-# TMAUERDE — FINAL V7 GitHub Pages
-
-Upload every file/folder in this ZIP directly to the repository root.
-
-This build intentionally uses new filenames `styles-final-v7.css` and `script-final-v7.js` to avoid an old cached stylesheet.
-
-Desktop layout: categories 3×2 and featured products 3×2.
+# TMAUERDE V10
+Static GitHub Pages build. Upload index.html, styles.css, script.js and the assets folder to the repository root. Product names and prices are demo content until replaced with the final catalog.
