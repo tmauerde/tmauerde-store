@@ -1,3 +1,2 @@
-TMAUERDE GitHub Pages final package.
-All files, including the six JPG images, must be uploaded to the repository root next to index.html.
-Do not upload the ZIP itself and do not put these files inside another folder.
+# TMAUERDE — GitHub Pages Final
+Static site ready for GitHub Pages. Upload every file in this folder to the repository root. Images intentionally live beside index.html to avoid path issues.
