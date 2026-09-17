@@ -1,3 +1,2 @@
-# TMAUERDE V13 — Large Premium
-GitHub Pages ready. Product image filenames remain unchanged in the repository root.
-Desktop layout uses 3 columns × 2 rows with larger cards, taller product images, larger typography, and reduced empty margins.
+# TMAUERDE V14 — True Full Width
+Static GitHub Pages build. Product images remain in the repository root. V14 removes the centered max-width constraint and uses a true full-width 3x2 desktop grid with larger image areas.
