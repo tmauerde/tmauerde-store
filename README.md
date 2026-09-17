@@ -1,2 +1,6 @@
-# TMAUERDE V14 — True Full Width
-Static GitHub Pages build. Product images remain in the repository root. V14 removes the centered max-width constraint and uses a true full-width 3x2 desktop grid with larger image areas.
+# TMAUERDE Store
+Static GitHub Pages build. No npm or build step required.
+
+Upload the CONTENTS of this folder to the repository root, then enable GitHub Pages from `main` / `(root)`.
+
+Product names and prices are demo storefront content and can be replaced with the final catalog.

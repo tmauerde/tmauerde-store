@@ -1,1 +1,1 @@
-let n=0,c=document.getElementById("count"),t=document.getElementById("toast");document.querySelectorAll(".add").forEach(b=>b.onclick=()=>{c.textContent=++n;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1000)});
+let count=0;const bag=document.querySelector('#bag'),toast=document.querySelector('#toast');document.querySelectorAll('.add').forEach(btn=>btn.addEventListener('click',()=>{count++;bag.textContent=`BAG (${count})`;toast.classList.add('show');clearTimeout(window.t);window.t=setTimeout(()=>toast.classList.remove('show'),1200)}));
