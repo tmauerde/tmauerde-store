@@ -250,3 +250,44 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     row-gap: 16px !important;
   }
 }
+
+
+/* === V21 HEADER + TOP AREA POLISH === */
+@media (min-width: 1050px) {
+  header {
+    min-height: 76px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  header .inner, header .nav, .navbar, .header-inner {
+    min-height: 76px !important;
+    align-items: center !important;
+  }
+
+  header nav {
+    letter-spacing: .03em !important;
+  }
+
+  #categories {
+    padding-top: 38px !important;
+  }
+
+  #categories .section-title,
+  #categories h2 {
+    margin-bottom: 18px !important;
+  }
+
+  #categories .cats {
+    gap: 12px !important;
+  }
+
+  #categories .cats img {
+    height: 185px !important;
+    object-fit: cover !important;
+  }
+
+  #shop .shophead {
+    margin-top: 38px !important;
+  }
+}
