@@ -8,3 +8,86 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
 @media(min-width:1400px){main{padding-left:2.5vw;padding-right:2.5vw}.cats,.products{gap:26px}.heading h1,.heading h2{font-size:42px}.info h3{font-size:27px}.info strong{font-size:23px}.cats b{font-size:14px}.product-image{aspect-ratio:16/10}}
 @media(max-width:900px){nav{display:none}.cats,.products{grid-template-columns:repeat(2,minmax(0,1fr))}.benefits{grid-template-columns:repeat(2,1fr);gap:16px}.benefits div:nth-child(2){border:0}}
 @media(max-width:600px){header{padding:0 18px}.brand b{font-size:14px}.brand{gap:9px}.bag{padding:10px}.benefits{display:none}main{padding:34px 18px 55px}.heading h1,.heading h2{font-size:27px}.heading a,.heading p{display:none}.cats,.products{grid-template-columns:1fr}.cats img,.product-image{aspect-ratio:4/3}.info{min-height:165px}.identity h2{font-size:28px}footer{gap:20px;flex-direction:column}}
+
+
+/* === TMAUERDE V16: premium compact desktop layout === */
+@media (min-width: 900px) {
+  main, .container, .wrap, .site-width {
+    width: min(1240px, calc(100% - 48px));
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Category section: 6 across, compact */
+  .category-grid, .categories-grid, .category-list, .categories {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  .category-card, .category-item, .category {
+    min-width: 0 !important;
+    height: auto !important;
+  }
+
+  .category-card img, .category-item img, .category img {
+    width: 100% !important;
+    height: 150px !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  /* Product section closer to categories */
+  .featured, .featured-products, #featured, .products-section {
+    margin-top: 52px !important;
+    padding-top: 0 !important;
+  }
+
+  .product-grid, .products-grid, .product-list, .products {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+  }
+
+  .product-card img, .product-item img {
+    width: 100% !important;
+    height: 205px !important;
+    object-fit: cover !important;
+  }
+}
+
+/* Precise V16 rules for this storefront */
+@media (min-width: 901px) {
+  .cats {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 12px !important;
+  }
+  .cats img {
+    height: 145px !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+  }
+  .cats b {
+    padding: 12px 12px !important;
+  }
+  .shophead {
+    margin-top: 46px !important;
+  }
+  .products {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+  }
+  .product-image {
+    height: 215px !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+  }
+  .info {
+    min-height: 150px !important;
+    padding: 16px !important;
+  }
+  .info h3 { font-size: 21px !important; }
+  .info strong { font-size: 18px !important; }
+}
