@@ -237,3 +237,16 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     height: 275px !important;
   }
 }
+
+
+/* === V20 FINAL — compact product images only === */
+@media (min-width: 1050px) {
+  #shop .product-image {
+    height: 235px !important;
+    object-fit: cover !important;
+  }
+
+  #shop .products {
+    row-gap: 16px !important;
+  }
+}
