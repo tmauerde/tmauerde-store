@@ -91,3 +91,32 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
   .info h3 { font-size: 21px !important; }
   .info strong { font-size: 18px !important; }
 }
+
+/* V17 FINAL — force compact category row and safe top spacing */
+@media (min-width: 901px) {
+  main {
+    width: min(1240px, calc(100% - 48px)) !important;
+    max-width: 1240px !important;
+    margin: 0 auto !important;
+    padding-top: 44px !important;
+  }
+  #categories { scroll-margin-top: 100px; }
+  #categories .cats {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+  #categories .cats article { width: auto !important; min-width: 0 !important; }
+  #categories .cats img {
+    width: 100% !important;
+    height: 138px !important;
+    aspect-ratio: auto !important;
+    object-fit: cover !important;
+  }
+  #categories .cats b {
+    padding: 11px 10px !important;
+    font-size: 11px !important;
+  }
+  #shop .shophead { margin-top: 50px !important; }
+}
