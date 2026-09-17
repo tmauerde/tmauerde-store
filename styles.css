@@ -374,3 +374,75 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     margin-top: 0 !important;
   }
 }
+
+
+/* =========================================================
+   V24 TRUE WIDE DESKTOP
+   Real fix: override the actual central wrapper constraints.
+   ========================================================= */
+@media (min-width: 1100px) {
+  main {
+    width: 84vw !important;
+    max-width: 1500px !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  main .wrap,
+  main .container,
+  #categories,
+  #shop,
+  #categories > *,
+  #shop > * {
+    max-width: none !important;
+  }
+
+  #categories,
+  #shop {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #categories .cats {
+    width: 100% !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+
+  #categories .cats img {
+    width: 100% !important;
+    height: 190px !important;
+    object-fit: cover !important;
+  }
+
+  #shop .products {
+    width: 100% !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+  }
+
+  #shop .product {
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  #shop .product-image {
+    width: 100% !important;
+    height: 255px !important;
+    object-fit: cover !important;
+  }
+
+  #categories h2,
+  #shop h2 {
+    font-size: clamp(30px, 2.35vw, 40px) !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  main {
+    width: 82vw !important;
+    max-width: 1560px !important;
+  }
+}
