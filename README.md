@@ -1,24 +1,7 @@
-# TMAUERDE — ROOT FIX
+# TMAUERDE — FINAL V7 GitHub Pages
 
-GitHub Pages version with ALL image files in the repository root.
+Upload every file/folder in this ZIP directly to the repository root.
 
-Upload the CONTENTS of this ZIP directly to the root of `tmauerde-store`.
-The important files are:
+This build intentionally uses new filenames `styles-final-v7.css` and `script-final-v7.js` to avoid an old cached stylesheet.
 
-- index.html
-- styles.css
-- script.js
-- hero.jpg
-- backpack.jpg
-- bag.jpg
-- wallet.jpg
-- cap.jpg
-- eyewear.jpg
-- watch.jpg
-
-There is NO assets folder in this version.
-
-GitHub Pages:
-Settings → Pages → Deploy from a branch → main → /(root) → Save.
-
-Product names and prices are demo catalog values.
+Desktop layout: categories 3×2 and featured products 3×2.
