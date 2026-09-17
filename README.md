@@ -1,9 +1,7 @@
-# TMAUERDE — Premium Products V8
+# TMAUERDE — FINAL V7 GitHub Pages
 
-GitHub Pages static build.
+Upload every file/folder in this ZIP directly to the repository root.
 
-- Categories remain 3 × 2 on desktop.
-- Featured Products remain 3 × 2 on desktop.
-- Featured cards redesigned with larger images, premium spacing, refined typography,
-  hover treatment, stronger price hierarchy, and outlined ADD TO BAG buttons.
-- No npm/build step.
+This build intentionally uses new filenames `styles-final-v7.css` and `script-final-v7.js` to avoid an old cached stylesheet.
+
+Desktop layout: categories 3×2 and featured products 3×2.

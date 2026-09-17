@@ -11,3 +11,24 @@
 .cats img{height:240px!important}
 @media(max-width:850px){.products,.cats{grid-template-columns:repeat(2,minmax(0,1fr))!important}.photo img{height:300px!important}}
 @media(max-width:560px){.products,.cats{grid-template-columns:1fr!important}.photo img,.cats img{height:auto!important;aspect-ratio:4/3;object-fit:cover}}
+
+/* V9 — readable premium scale + clean 3x2 cards */
+main{padding:54px 5.2% 48px!important;max-width:1440px;margin:0 auto}
+#categories,#shop,.product-heading,.products{max-width:none!important}
+.section-head h1,.section-head h2{font-size:34px!important;line-height:1.05}
+.cats{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important}
+.cats img{height:285px!important;object-position:center!important}
+.cats b{padding:17px 18px!important;font-size:13px!important}
+.product-heading{margin:82px 0 26px!important}
+.products{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:24px!important;margin:0!important}
+.products article{min-height:470px;display:flex;flex-direction:column}
+.photo img{height:335px!important;object-position:center!important}
+.info{padding:18px 20px 20px!important;display:grid;grid-template-columns:1fr auto;gap:8px 16px;align-items:center;flex:1}
+.info h3{font-size:18px!important;line-height:1.2;margin:0!important}
+.info strong{font-size:22px!important;grid-column:2;grid-row:1;color:#e3b74d}
+.info small{font-size:12px!important;margin:0!important;grid-column:1/-1}
+.add{grid-column:1/-1;padding:14px!important;font-size:12px!important;margin-top:5px}
+.photo span{font-size:30px!important;right:17px!important;top:13px!important}
+.tagline{font-size:12px!important;padding:52px 12%!important}
+@media(max-width:900px){main{padding:38px 4%}.cats,.products{grid-template-columns:repeat(2,minmax(0,1fr))!important}.cats img{height:240px!important}.photo img{height:300px!important}.products article{min-height:430px}}
+@media(max-width:560px){.cats,.products{grid-template-columns:1fr!important}.cats img,.photo img{height:auto!important;aspect-ratio:4/3}.section-head h1,.section-head h2{font-size:27px!important}.info h3{font-size:17px!important}}
