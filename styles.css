@@ -291,3 +291,47 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     margin-top: 38px !important;
   }
 }
+
+
+/* === V22 WIDE DESKTOP POLISH ===
+   More presence on large screens; product/card proportions preserved.
+*/
+@media (min-width: 1100px) {
+  main > section > .wrap,
+  main > section > .container,
+  #categories > .wrap,
+  #shop > .wrap,
+  #categories .wrap,
+  #shop .wrap {
+    width: min(1120px, calc(100% - 56px)) !important;
+    max-width: 1120px !important;
+  }
+
+  #categories .section-title,
+  #categories h2 {
+    font-size: 34px !important;
+    line-height: 1.02 !important;
+  }
+
+  #shop .shophead h2,
+  #shop h2 {
+    font-size: 34px !important;
+    line-height: 1.02 !important;
+  }
+
+  #categories .cats {
+    gap: 14px !important;
+  }
+
+  #categories .cats img {
+    height: 195px !important;
+  }
+
+  #shop .products {
+    gap: 18px !important;
+  }
+
+  #shop .product-image {
+    height: 245px !important;
+  }
+}
