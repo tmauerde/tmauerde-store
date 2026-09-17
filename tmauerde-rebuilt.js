@@ -1,0 +1,1 @@
+let count=0;document.querySelectorAll('.product button').forEach(b=>b.addEventListener('click',()=>{count++;document.getElementById('bagCount').textContent=count;b.textContent='ADDED ✓';setTimeout(()=>b.textContent='ADD TO BAG +',900)}));
