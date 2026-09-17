@@ -1,10 +1,24 @@
-# TMAUERDE STORE
+# TMAUERDE — ROOT FIX
 
-Static premium accessories storefront ready for GitHub Pages.
+GitHub Pages version with ALL image files in the repository root.
 
-## Upload
-Upload `index.html`, `styles.css`, `script.js`, `README.md` and the `assets` folder directly to the repository root.
+Upload the CONTENTS of this ZIP directly to the root of `tmauerde-store`.
+The important files are:
 
-GitHub Pages: Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+- index.html
+- styles.css
+- script.js
+- hero.jpg
+- backpack.jpg
+- bag.jpg
+- wallet.jpg
+- cap.jpg
+- eyewear.jpg
+- watch.jpg
 
-Product names and prices are demo catalog values until replaced with the final commercial catalog.
+There is NO assets folder in this version.
+
+GitHub Pages:
+Settings → Pages → Deploy from a branch → main → /(root) → Save.
+
+Product names and prices are demo catalog values.
