@@ -335,3 +335,42 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     height: 245px !important;
   }
 }
+
+
+/* === V23 FINAL CATEGORY HEADER FIX ===
+   Restore breathing room and category heading.
+   Featured Products remains untouched.
+*/
+@media (min-width: 1050px) {
+  #categories {
+    padding-top: 46px !important;
+  }
+
+  #categories .eyebrow {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin: 0 0 8px !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    letter-spacing: .34em !important;
+  }
+
+  #categories .section-title,
+  #categories h2 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin: 0 0 20px !important;
+    font-size: 34px !important;
+    line-height: 1.05 !important;
+  }
+
+  #categories .section-head {
+    margin-bottom: 0 !important;
+  }
+
+  #categories .cats {
+    margin-top: 0 !important;
+  }
+}
