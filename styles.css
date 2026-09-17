@@ -195,3 +195,45 @@ main{width:100%;max-width:none;margin:0;padding:52px 3vw 72px}.eyebrow{font-size
     height: 270px !important;
   }
 }
+
+/* === V19 FINAL POLISH — preserve V18 structure === */
+@media (min-width: 1050px) {
+  main {
+    width: calc(100% - 40px) !important;
+    max-width: 1380px !important;
+  }
+
+  #categories .cats {
+    gap: 14px !important;
+  }
+
+  #categories .cats img {
+    height: 200px !important;
+  }
+
+  #shop .shophead {
+    margin-top: 46px !important;
+  }
+
+  #shop .products {
+    gap: 18px !important;
+  }
+
+  #shop .product-image {
+    height: 260px !important;
+  }
+}
+
+@media (min-width: 1350px) {
+  main {
+    max-width: 1440px !important;
+  }
+
+  #categories .cats img {
+    height: 210px !important;
+  }
+
+  #shop .product-image {
+    height: 275px !important;
+  }
+}
