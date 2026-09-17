@@ -1,2 +1,2 @@
-# TMAUERDE V10
-Static GitHub Pages build. Upload index.html, styles.css, script.js and the assets folder to the repository root. Product names and prices are demo content until replaced with the final catalog.
+# TMAUERDE V12 — Premium Cards
+Static GitHub Pages build. Product cards use a 3x2 desktop grid with full product images above the product information. All six JPG files live in the repository root so paths work on GitHub Pages.
