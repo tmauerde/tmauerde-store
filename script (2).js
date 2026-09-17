@@ -1,0 +1,1 @@
+let n=0;const count=document.querySelector('#count'),toast=document.querySelector('#toast');document.querySelectorAll('.grid button').forEach(b=>b.addEventListener('click',()=>{count.textContent=++n;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1200)}));
