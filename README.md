@@ -1,2 +1,3 @@
-# TMAUERDE V12 — Premium Cards
-Static GitHub Pages build. Product cards use a 3x2 desktop grid with full product images above the product information. All six JPG files live in the repository root so paths work on GitHub Pages.
+# TMAUERDE V13 — Large Premium
+GitHub Pages ready. Product image filenames remain unchanged in the repository root.
+Desktop layout uses 3 columns × 2 rows with larger cards, taller product images, larger typography, and reduced empty margins.
